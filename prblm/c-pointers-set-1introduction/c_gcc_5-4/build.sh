@@ -1,7 +1,7 @@
 # build.sh
 
 # Prequisites:
-# 	- g++
+# 	- gcc
 
 #!/bin/bash
 
@@ -21,7 +21,7 @@ printf "\n"
 
 ls
 
-g++ -o ./build/Program_Main main.cpp
+gcc main.c -o ./build/Program_Main
 
 printf "\n"
 printf "End of shell script\n"
